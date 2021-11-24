@@ -1,0 +1,32 @@
+@import 'mixin.scss';
+
+//  Colors
+$primaryC: #9356DC;
+$secondaryC: #FF79DA;
+$tertiaryC: #99E2D0;
+
+//  Font  
+
+$roboto:'Roboto', sans-serif;
+$shrikhand: 'Shrikhand', cursive;
+
+%textdeco{
+    text-decoration: none;
+}
+/*  Général  */
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    @extend %textdeco;
+}
+
+a{
+    @extend %textdeco;
+}

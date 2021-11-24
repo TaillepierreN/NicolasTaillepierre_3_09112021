@@ -1,3 +1,15 @@
+@charset "UTF-8";
+a, ul {
+  text-decoration: none;
+}
 
+/*  Général  */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /*# sourceMappingURL=style.css.map */

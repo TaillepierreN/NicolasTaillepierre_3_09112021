@@ -1,0 +1,8 @@
+@mixin flex($flex-direction: row){
+    display: flex;
+    flex-direction: $flex-direction;
+}
+
+@mixin bgcolor($bgcolor: #ffff){
+    background-color: $bgcolor;
+}
