@@ -6,3 +6,14 @@
 @mixin bgcolor($bgcolor: #ffff){
     background-color: $bgcolor;
 }
+
+@mixin darken($color, $luminosity){
+    background-color: darken($color, $luminosity);
+}
+@mixin lighten($color, $luminosity){
+    background-color: lighten($color, $luminosity);
+}
+
+@mixin shadow($offx:1px,$offy: 1px,$blur: 1px, $spread: 1px){
+    box-shadow: $offx $offy $blur $spread black;
+}
