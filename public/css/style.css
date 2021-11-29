@@ -12,9 +12,10 @@ h1, h2, h3, p {
 
 ul, a {
   text-decoration: none;
+  list-style: none;
 }
 
-h1 {
+a:visited h1 {
   font-size: 28px;
 }
 
@@ -24,6 +25,10 @@ h2 {
 
 h3 {
   font-size: 19px;
+}
+
+a:visited {
+  color: inherit;
 }
 
 .btn {
@@ -143,6 +148,31 @@ header {
 header img {
   max-width: 180px;
   margin: 15px auto;
+}
+
+footer {
+  height: 200px;
+  background-color: #303030;
+  width: 100vw;
+  color: #fff;
+  padding: 25px 20px;
+}
+footer h3 {
+  font-family: "Shrikhand", cursive;
+  font-weight: 300;
+  font-size: 17px;
+}
+footer ul {
+  font-family: "Roboto", sans-serif;
+  margin-top: 15px;
+  font-size: 14px;
+}
+footer li {
+  margin-bottom: 10px;
+}
+footer li i {
+  font-size: 10px;
+  width: 20px;
 }
 
 form {

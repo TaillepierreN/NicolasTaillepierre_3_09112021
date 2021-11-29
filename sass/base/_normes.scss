@@ -10,7 +10,9 @@ h1,h2,h3,p{
 }
 ul,a{
     text-decoration: none;
+    list-style: none;
 }
+a:visited
 h1{
     font-size: $h1size;
 }
@@ -19,4 +21,7 @@ h2{
 }
 h3{
     font-size: $h3size;
+}
+a:visited{
+    color:inherit
 }
