@@ -1,0 +1,22 @@
+.explore{
+    width: 100%;
+    height: 300px;
+    @include flex(column);
+    align-items: center;
+    background-color: lighten(black,97%);
+    padding: 30px;
+    &__title{
+        width: 100%;
+        text-align: center;
+        height: 30%;
+        font-weight: 900;
+        font-size: $h1size;
+    }
+    &__desc{
+        height: 25%;
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
