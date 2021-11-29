@@ -1,0 +1,6 @@
+.restaurantlist{
+    background-color: lighten(black,97%);
+    width: 100vw;
+    padding: 50px 20px;
+    @include flex(column);
+}

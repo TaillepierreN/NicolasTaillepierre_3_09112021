@@ -143,4 +143,12 @@ form input {
   margin-bottom: 10px;
 }
 
+.restaurantlist {
+  background-color: #f7f7f7;
+  width: 100vw;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=style.css.map */
