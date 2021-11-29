@@ -1,72 +1,83 @@
-@import 'mixin.scss';
+// @use './utils/mixin' as *;
+// @use './utils/variables' as *;
+// @use './base/normes' as *;
+@import './utils/mixin';
+@import './utils/variables';
+@import './base/normes';
 
-//  Colors
-$primaryC: #9356DC;
-$secondaryC: #FF79DA;
-$tertiaryC: #99E2D0;
-
-//  Font  
-
-$roboto:'Roboto', sans-serif;
-$shrikhand: 'Shrikhand', cursive;
-
-%textdeco{
-    text-decoration: none;
-}
-/*  Général  */
-
-*,
-*::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-h1,h2,h3,p{
-    font-family: $roboto;
-}
-ul{
-    @extend %textdeco;
-}
-
-a{
-    @extend %textdeco;
-}
 
 header{
     @include flex(column);
     width: 100vw;
     height: 100%;
-    .logo{
-        width: 100%;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    @include flex;
+    @include shadow($offy: -10px,$blur: 13px,$spread: 2px);
+    img{
+        max-width: 180px;
+        margin: 15px auto;
+    }
+}
+form{
+    @include flex;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+    justify-content: flex-end;
+    @include lighten(black,92%);
+    gap:10px;
+    i{
+        font-size:17px;
+    };
+    input{
         height: 100%;
-        z-index: 2;
-        @include flex;
-        @include shadow($offy: -10px,$blur: 13px,$spread: 2px);
-        img{
-            max-width: 180px;
-            margin: 15px auto;
-        }
+        width: 60%;
+        background-color: transparent;
+        border: none;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: $roboto;
     }
-    form{
-        @include flex;
+}
+
+.explore{
+    width: 100%;
+    height: 300px;
+    @include flex(column);
+    align-items: center;
+    @include lighten(black,97%);
+    padding: 30px;
+    &__title{
         width: 100%;
-        height: 45px;
-        align-items: center;
-        justify-content: flex-end;
-        @include lighten(black,92%);
-        gap:10px;
-        i{
-            font-size:17px;
-        };
-        input{
-            height: 100%;
-            width: 60%;
-            background-color: transparent;
-            border: none;
-            font-weight: bold;
-            font-size: 16px;
-            font-family: $roboto;
-        }
+        text-align: center;
+        height: 30%;
+        font-weight: 900;
+        font-size: $h1size;
     }
+    &__desc{
+        height: 25%;
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    &__btn{
+        height: 50px;
+        width: 80%;
+        margin-top: 25px;
+        background: rgb(255,121,218);
+        background: linear-gradient(170deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 82%);
+        color: white;
+        font-family: $roboto;
+        font-size: $h3size;
+        border: none;
+        font-weight: 500;
+        // @include border-radius($tl:50%)
+    }
+
+
 }

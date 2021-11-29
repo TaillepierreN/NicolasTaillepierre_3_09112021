@@ -1,9 +1,3 @@
-@charset "UTF-8";
-a, ul {
-  text-decoration: none;
-}
-
-/*  Général  */
 *,
 *::before,
 *::after {
@@ -16,13 +10,18 @@ h1, h2, h3, p {
   font-family: "Roboto", sans-serif;
 }
 
+ul, a {
+  text-decoration: none;
+}
+
 header {
   display: flex;
   flex-direction: column;
   width: 100vw;
   height: 100%;
 }
-header .logo {
+
+.logo {
   width: 100%;
   height: 100%;
   z-index: 2;
@@ -30,11 +29,12 @@ header .logo {
   flex-direction: row;
   box-shadow: 1px -10px 13px 2px black;
 }
-header .logo img {
+.logo img {
   max-width: 180px;
   margin: 15px auto;
 }
-header form {
+
+form {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -44,10 +44,10 @@ header form {
   background-color: #ebebeb;
   gap: 10px;
 }
-header form i {
+form i {
   font-size: 17px;
 }
-header form input {
+form input {
   height: 100%;
   width: 60%;
   background-color: transparent;
@@ -55,6 +55,42 @@ header form input {
   font-weight: bold;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
+}
+
+.explore {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding: 30px;
+}
+.explore__title {
+  width: 100%;
+  text-align: center;
+  height: 30%;
+  font-weight: 900;
+  font-size: 28px;
+}
+.explore__desc {
+  height: 25%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.explore__btn {
+  height: 50px;
+  width: 80%;
+  margin-top: 25px;
+  background: #ff79da;
+  background: linear-gradient(170deg, #ff79da 0%, #9356dc 82%);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  border: none;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=style.css.map */
