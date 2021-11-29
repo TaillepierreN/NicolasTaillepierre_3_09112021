@@ -1,0 +1,14 @@
+.btn{
+    font-family: $roboto;
+    font-size: $h3size;
+    border: none;
+    font-weight: 500;
+    .explore &{
+        height: 50px;
+        width: 80%;
+        margin-top: 25px;
+        background: rgb(255,121,218);
+        background: linear-gradient(170deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 82%);
+        color: white;
+    }
+}
