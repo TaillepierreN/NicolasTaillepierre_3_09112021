@@ -21,12 +21,13 @@ ul, a {
   font-weight: 500;
 }
 .explore .btn {
-  height: 50px;
-  width: 80%;
+  height: 60px;
+  width: 75%;
   margin-top: 25px;
   background: #ff79da;
   background: linear-gradient(170deg, #ff79da 0%, #9356dc 82%);
   color: white;
+  border-radius: 25px;
 }
 
 header {
