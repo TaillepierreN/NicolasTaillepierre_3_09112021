@@ -14,20 +14,6 @@ ul, a {
   text-decoration: none;
 }
 
-header {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 100%;
-  position: relative;
-  box-shadow: 1px -10px 13px 2px black;
-  z-index: 2;
-}
-header img {
-  max-width: 180px;
-  margin: 15px auto;
-}
-
 .btn {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -41,6 +27,20 @@ header img {
   background: #ff79da;
   background: linear-gradient(170deg, #ff79da 0%, #9356dc 82%);
   color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+  position: relative;
+  box-shadow: 1px -10px 13px 2px black;
+  z-index: 2;
+}
+header img {
+  max-width: 180px;
+  margin: 15px auto;
 }
 
 form {
