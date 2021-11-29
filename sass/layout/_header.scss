@@ -1,0 +1,12 @@
+header{
+    @include flex(column);
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    @include shadow($offy: -10px,$blur: 13px,$spread: 2px);
+    z-index: 2;
+    img{
+        max-width: 180px;
+        margin: 15px auto;
+    }
+}

@@ -4,31 +4,18 @@
 @import './utils/mixin';
 @import './utils/variables';
 @import './base/normes';
+@import './layout/header';
 
 
-header{
-    @include flex(column);
-    width: 100vw;
-    height: 100%;
-}
-.logo{
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    @include flex;
-    @include shadow($offy: -10px,$blur: 13px,$spread: 2px);
-    img{
-        max-width: 180px;
-        margin: 15px auto;
-    }
-}
+
+
 form{
     @include flex;
     width: 100%;
     height: 45px;
     align-items: center;
     justify-content: flex-end;
-    @include lighten(black,92%);
+    background-color: lighten(black,92%);
     gap:10px;
     i{
         font-size:17px;
@@ -49,7 +36,7 @@ form{
     height: 300px;
     @include flex(column);
     align-items: center;
-    @include lighten(black,97%);
+    background-color: lighten(black,97%);
     padding: 30px;
     &__title{
         width: 100%;
@@ -76,7 +63,6 @@ form{
         font-size: $h3size;
         border: none;
         font-weight: 500;
-        // @include border-radius($tl:50%)
     }
 
 
