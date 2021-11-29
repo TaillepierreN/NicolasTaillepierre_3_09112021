@@ -1,0 +1,27 @@
+.restaucard{
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+    @include flex(column);
+    border-radius: 5px;
+    box-shadow: 0px 4px 12px -10px black;
+    position: relative;
+    img{
+        height: 70%;
+        object-fit:cover;
+    }
+    &__nameplate{
+        @include flex;
+        width: 100%;
+        height: 60px;
+        padding: 20px;
+        justify-content: space-between;
+        &__name{
+            @include flex(column);
+            gap: 3px;
+        }
+        i{
+            font-size: 30px;
+        }
+    }
+}

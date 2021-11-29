@@ -70,6 +70,37 @@ ul, a {
   background-color: #f7f2fc;
 }
 
+.restaucard {
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0px 4px 12px -10px black;
+  position: relative;
+}
+.restaucard img {
+  height: 70%;
+  object-fit: cover;
+}
+.restaucard__nameplate {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+  justify-content: space-between;
+}
+.restaucard__nameplate__name {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.restaucard__nameplate i {
+  font-size: 30px;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -149,6 +180,7 @@ form input {
   padding: 50px 20px;
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

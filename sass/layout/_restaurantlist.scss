@@ -3,4 +3,5 @@
     width: 100vw;
     padding: 50px 20px;
     @include flex(column);
+    gap: 20px;
 }
