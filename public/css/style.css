@@ -76,7 +76,7 @@ ul, a {
   height: 250px;
   display: flex;
   flex-direction: column;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 0px 4px 12px -10px black;
   position: relative;
 }
@@ -99,6 +99,24 @@ ul, a {
 }
 .restaucard__nameplate i {
   font-size: 30px;
+}
+
+.newtag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #99E2D0;
+  width: 80px;
+  height: 25px;
+  color: #2fa487;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
 }
 
 header {
