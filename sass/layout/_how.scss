@@ -1,52 +1,10 @@
 .how{
     width: 100vw;
-    height: 500px;
+    height: 400px;
     padding: 50px 20px;
     @include flex(column);
     gap: 20px;
     h2{
         margin-bottom: 10px;
-    }
-}
-
-.instruction{
-    height: 60px;
-    background-color: lighten(black,97%);
-    border-radius: 15px;
-    @include flex;
-    align-items: center;
-    width: 90%;
-    margin: 0 auto;
-    font-weight: 600;
-    font-size: 15px;
-    box-shadow: 0px 4px 15px -10px black;
-    &__num{
-        background-color: $primaryC;
-        color: #fff;
-        width: 20px;
-        height: 20px;
-        border-radius: 20px;
-        @include flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 3px;
-        font-size: 13px;
-        margin-left: -10px;
-        font-family: $roboto;
-    }
-    i{
-        width: 50px;
-        text-align: center;
-        color: lighten(black,50%);
-    }
-    &:hover i,
-    &:focus i,
-    &:active i{
-        color: $primaryC;
-    }
-    &:hover,
-    &:focus,
-    &:active{
-        background-color: lighten($primaryC,37%);
     }
 }
