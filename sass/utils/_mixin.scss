@@ -1,14 +1,14 @@
-@mixin flex($flex-direction: row){
+@mixin flex($flex-direction: row) {
     display: flex;
     flex-flow: $flex-direction;
 }
 
-@mixin shadow($offx:1px,$offy: 1px,$blur: 1px, $spread: 1px){
+@mixin shadow($offx:1px, $offy: 1px, $blur: 1px, $spread: 1px) {
     box-shadow: $offx $offy $blur $spread black;
 }
 
-@mixin responsive($device){
-    @media screen and (min-width: map-get($breakpoints, $device)){
+@mixin responsive($device) {
+    @media screen and (min-width: map-get($breakpoints, $device)) {
         @content
     }
 }

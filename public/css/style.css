@@ -6,11 +6,15 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   font-family: "Roboto", sans-serif;
 }
 
-ul, a {
+ul,
+a {
   text-decoration: none;
   list-style: none;
 }
@@ -73,7 +77,7 @@ a:visited {
   }
 }
 .instruction__num {
-  background-color: #9356DC;
+  background-color: #9356dc;
   color: #fff;
   width: 20px;
   height: 20px;
@@ -94,7 +98,7 @@ a:visited {
   font-size: 1.1rem;
 }
 .instruction:hover i, .instruction:focus i, .instruction:active i {
-  color: #9356DC;
+  color: #9356dc;
 }
 .instruction:hover, .instruction:focus, .instruction:active {
   background-color: #f7f2fc;
@@ -144,7 +148,7 @@ a:visited {
   position: absolute;
   top: 10px;
   right: 10px;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   width: 80px;
   height: 30px;
   color: #278870;

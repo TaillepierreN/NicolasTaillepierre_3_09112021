@@ -1,25 +1,28 @@
-.explore{
+.explore {
     width: 100%;
     height: 400px;
     @include flex(column);
     align-items: center;
-    background-color: lighten(black,97%);
+    background-color: lighten(black, 97%);
     padding: 30px;
-    &__title{
+
+    &__title {
         width: 100%;
         text-align: center;
         height: 30%;
         font-weight: 900;
         font-size: $h1size;
     }
-    &__desc{
+
+    &__desc {
         height: 25%;
         text-align: center;
         font-weight: 400;
         font-size: 1.15rem;
         margin-top: 10px;
     }
-    @include responsive(desktop){
+
+    @include responsive(desktop) {
         width: 50%;
     }
 }

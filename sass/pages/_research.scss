@@ -1,19 +1,22 @@
-.research{
+.research {
     width: 100%;
 }
-form{
+
+form {
     @include flex;
     width: 100%;
     height: 45px;
     align-items: center;
     justify-content: center;
-    background-color: lighten(black,92%);
-    gap:10px;
-    i{
-        font-size:1.05rem;
+    background-color: lighten(black, 92%);
+    gap: 10px;
+
+    i {
+        font-size: 1.05rem;
         margin-left: 70px;
-    };
-    input{
+    }
+
+    input {
         height: 100%;
         background-color: transparent;
         border: none;

@@ -1,31 +1,41 @@
 *,
 *::before,
-*::after{
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-h1,h2,h3,p{
+
+h1,
+h2,
+h3,
+p {
     font-family: $roboto;
 }
-ul,a{
+
+ul,
+a {
     text-decoration: none;
     list-style: none;
 }
-a:visited
-h1{
+
+a:visited h1 {
     font-size: $h1size;
 }
-h2{
+
+h2 {
     font-size: $h2size;
 }
-h3{
+
+h3 {
     font-size: $h3size;
 }
-a:visited{
-    color:inherit
+
+a:visited {
+    color: inherit;
 }
-.wrap{
+
+.wrap {
     margin: 0 auto;
     max-width: 1440px;
 }

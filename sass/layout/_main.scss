@@ -1,7 +1,7 @@
-main{
+main {
     @include flex(column);
-    @include responsive(desktop){
-        @include flex (row wrap);
 
+    @include responsive(desktop) {
+        @include flex(row wrap);
     }
 }
