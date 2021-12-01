@@ -8,6 +8,9 @@ form{
     gap:10px;
     i{
         font-size:1.05rem;
+        @include responsive(tablet){
+            margin-left: 42%;
+        }
     };
     input{
         height: 100%;

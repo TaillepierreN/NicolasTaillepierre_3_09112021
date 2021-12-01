@@ -4,15 +4,28 @@ footer {
     width: 100%;
     color: #fff;
     padding: 25px 20px;
+    @include responsive(tablet){
+        height: 130px;
+    }
     h3{
         font-family: $shrikhand;
         font-weight: 300;
         font-size: $h3size;
+        text-align:start;
+        @include responsive(tablet){
+            text-align: center;
+        }
     }
     ul{
         font-family: $roboto;
         margin-top: 15px;
         font-size: 0.85rem;
+        @include flex(column);
+        @include responsive(tablet){
+            @include flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
     }
     li{
         margin-bottom: 10px;
