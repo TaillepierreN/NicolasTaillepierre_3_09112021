@@ -7,17 +7,17 @@ footer {
     h3{
         font-family: $shrikhand;
         font-weight: 300;
-        font-size: 17px;
+        font-size: $h3size;
     }
     ul{
         font-family: $roboto;
         margin-top: 15px;
-        font-size: 14px;
+        font-size: 0.85rem;
     }
     li{
         margin-bottom: 10px;
         i{
-            font-size: 10px;
+            font-size: 0.68rem;
             width: 20px;
         }
     }

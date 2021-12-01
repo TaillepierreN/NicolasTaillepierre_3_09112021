@@ -7,7 +7,7 @@ form{
     background-color: lighten(black,92%);
     gap:10px;
     i{
-        font-size:17px;
+        font-size:1.05rem;
     };
     input{
         height: 100%;
@@ -15,7 +15,7 @@ form{
         background-color: transparent;
         border: none;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 1.15rem;
         font-family: $roboto;
     }
 }
