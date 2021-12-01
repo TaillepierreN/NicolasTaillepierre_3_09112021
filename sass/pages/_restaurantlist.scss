@@ -12,5 +12,14 @@
     }
     @include responsive(desktop){
         @include flex(row wrap);
+    };
+    .restaugrid{
+        width: 100%;
+        padding: 0px 20px;
+        gap: 20px;
+        @include flex(column);
+        @include responsive(desktop){
+            @include flex(row wrap);
+        };
     }
 }

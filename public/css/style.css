@@ -318,5 +318,18 @@ form input {
     flex-flow: row wrap;
   }
 }
+.restaurantlist .restaugrid {
+  width: 100%;
+  padding: 0px 20px;
+  gap: 20px;
+  display: flex;
+  flex-flow: column;
+}
+@media screen and (min-width: 992px) {
+  .restaurantlist .restaugrid {
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
