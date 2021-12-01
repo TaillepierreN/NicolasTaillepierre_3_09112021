@@ -45,15 +45,15 @@ a:visited {
   font-size: 1.1rem;
   border: none;
   font-weight: 500;
+  background: #ff79da;
+  background: linear-gradient(170deg, #ff79da 0%, #9356dc 82%);
+  color: white;
+  border-radius: 25px;
 }
 .explore .btn {
   height: 60px;
   width: 75%;
   margin-top: 25px;
-  background: #ff79da;
-  background: linear-gradient(170deg, #ff79da 0%, #9356dc 82%);
-  color: white;
-  border-radius: 25px;
   max-width: 500px;
 }
 
