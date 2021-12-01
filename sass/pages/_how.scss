@@ -10,4 +10,7 @@
             text-align: center;
         }
     };
+    @include responsive(desktop){
+        width: 50%;
+    }
 }
