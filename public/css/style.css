@@ -300,5 +300,10 @@ form input {
   flex-flow: column;
   gap: 20px;
 }
+@media screen and (min-width: 768px) {
+  .restaurantlist h2 {
+    text-align: center;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
