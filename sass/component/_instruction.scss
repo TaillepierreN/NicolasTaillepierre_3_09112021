@@ -12,6 +12,7 @@
     box-shadow: 0px 4px 12px -10px black;
     @include responsive(tablet){
         justify-content: center;
+        max-width: 600px;
     }
     &__num{
         background-color: $primaryC;

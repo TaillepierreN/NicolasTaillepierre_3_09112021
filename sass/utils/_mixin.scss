@@ -1,6 +1,6 @@
 @mixin flex($flex-direction: row){
     display: flex;
-    flex-direction: $flex-direction;
+    flex-flow: $flex-direction;
 }
 
 @mixin shadow($offx:1px,$offy: 1px,$blur: 1px, $spread: 1px){
