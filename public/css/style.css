@@ -100,6 +100,12 @@ a:visited {
   background-color: #f7f2fc;
 }
 
+@media screen and (min-width: 992px) {
+  .restaucard {
+    min-width: 455px;
+    flex: 1;
+  }
+}
 .restaucard a {
   overflow: hidden;
   width: 100%;
@@ -303,6 +309,13 @@ form input {
 @media screen and (min-width: 768px) {
   .restaurantlist h2 {
     text-align: center;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .restaurantlist {
+    display: flex;
+    flex-flow: row wrap;
   }
 }
 

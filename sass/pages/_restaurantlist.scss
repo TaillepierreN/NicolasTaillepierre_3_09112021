@@ -7,6 +7,10 @@
     h2{
         @include responsive(tablet){
             text-align: center;
+            width: 100%;
         }
+    }
+    @include responsive(desktop){
+        @include flex(row wrap);
     }
 }

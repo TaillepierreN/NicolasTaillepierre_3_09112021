@@ -1,4 +1,8 @@
 .restaucard {
+    @include responsive(desktop){
+        min-width: 455px;
+        flex: 1;
+    }
     a{
     overflow: hidden;
     width: 100%;
@@ -8,6 +12,7 @@
     box-shadow: 0px 4px 12px -10px black;
     position: relative;
     z-index: 1;
+
     }
     img{
         height: 70%;
