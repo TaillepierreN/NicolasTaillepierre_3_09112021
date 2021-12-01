@@ -4,13 +4,13 @@
     right: 10px;
     background-color: $tertiaryC;
     width: 80px;
-    height: 25px;
-    color: darken($tertiaryC,33%);
+    height: 30px;
+    color: darken($tertiaryC,40%);
     font-weight: 600;
     font-family: $roboto;
     font-size: 0.9rem;
     @include flex;
     justify-content: center;
     align-items: center;
-    border-radius: 2px;
+    border-radius: 3px;
 }
