@@ -177,6 +177,25 @@ header img {
   margin: 15px auto;
 }
 
+.header {
+  display: flex;
+  flex-flow: row;
+}
+.header__arrow {
+  height: 60px;
+  width: 50px;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  margin-left: 45px;
+}
+.header__arrow + img {
+  width: 100%;
+  margin: 15px auto;
+  position: relative;
+  right: 55px;
+}
+
 footer {
   height: 200px;
   background-color: #303030;

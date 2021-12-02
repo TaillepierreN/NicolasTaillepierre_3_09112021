@@ -11,4 +11,30 @@ header {
         max-width: 180px;
         margin: 15px auto;
     }
+
+    ;
+
+}
+
+.header {
+    @include flex;
+
+
+    &__arrow {
+        height: 60px;
+        width: 50px;
+        font-size: 1.7rem;
+        display: flex;
+        align-items: center;
+        margin-left: 45px;
+
+
+    }
+
+    &__arrow+img {
+        width: 100%;
+        margin: 15px auto;
+        position: relative;
+        right: 55px;
+    }
 }
