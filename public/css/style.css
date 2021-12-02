@@ -48,11 +48,13 @@ a:visited {
   background: #ff79da;
   background: linear-gradient(170deg, #ff79da 0%, #9356dc 82%);
   color: white;
-  border-radius: 25px;
+  border-radius: 35px;
+  min-width: 100px;
+  padding: 0 35px;
+  box-shadow: 0 9px 25px -15px black;
 }
 .explore .btn {
   height: 60px;
-  width: 75%;
   margin-top: 25px;
   max-width: 500px;
 }
@@ -78,15 +80,16 @@ a:visited {
 .instruction__num {
   background-color: #9356dc;
   color: #fff;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   border-radius: 20px;
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
   padding-top: 3px;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
+  line-height: 1;
   margin-left: -10px;
   font-family: "Roboto", sans-serif;
 }
@@ -353,7 +356,6 @@ form input {
 }
 .restaurantlist .restaugrid {
   width: 100%;
-  padding: 0px 20px;
   gap: 20px;
   display: flex;
   flex-flow: column;

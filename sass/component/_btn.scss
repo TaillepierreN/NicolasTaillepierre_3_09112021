@@ -8,11 +8,13 @@
             rgba(255, 121, 218, 1) 0%,
             rgba(147, 86, 220, 1) 82%);
     color: white;
-    border-radius: 25px;
+    border-radius: 35px;
+    min-width: 100px;
+    padding: 0 35px;
+    @include shadow(0,9px,25px,-15px);
 
     .explore & {
         height: 60px;
-        width: 75%;
         margin-top: 25px;
         max-width: 500px;
     }
