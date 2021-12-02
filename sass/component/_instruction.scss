@@ -4,8 +4,7 @@
     border-radius: 15px;
     @include flex;
     align-items: center;
-    width: 90%;
-    margin: 0 auto;
+    margin-left: 10px;
     font-weight: 600;
     font-size: 1rem;
     box-shadow: 0px 4px 12px -10px black;
@@ -23,7 +22,7 @@
         border-radius: 20px;
         @include flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         padding-top: 3px;
         font-size: 0.75rem;
         margin-left: -10px;
