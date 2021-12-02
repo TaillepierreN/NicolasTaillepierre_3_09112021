@@ -4,7 +4,9 @@
     padding: 50px 20px;
     @include flex(column);
     gap: 20px;
-
+    @include responsive(tablet){
+        @include flex(row wrap)
+    }
     h2 {
         margin-bottom: 10px;
 

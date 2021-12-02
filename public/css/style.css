@@ -73,14 +73,13 @@ a:visited {
 }
 @media screen and (min-width: 768px) {
   .instruction {
-    justify-content: center;
-    max-width: 600px;
+    flex: 1;
   }
 }
 .instruction__num {
   background-color: #9356dc;
   color: #fff;
-  width: 25px;
+  min-width: 25px;
   height: 25px;
   border-radius: 20px;
   display: flex;
@@ -319,6 +318,12 @@ form input {
   display: flex;
   flex-flow: column;
   gap: 20px;
+}
+@media screen and (min-width: 768px) {
+  .how {
+    display: flex;
+    flex-flow: row wrap;
+  }
 }
 .how h2 {
   margin-bottom: 10px;
