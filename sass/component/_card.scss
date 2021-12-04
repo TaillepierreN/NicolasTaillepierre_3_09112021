@@ -1,4 +1,8 @@
 .restaucard {
+    @include responsive(tablet){
+        flex: 1;
+        min-width: 300px;
+    }
     @include responsive(desktop) {
         min-width: 455px;
         flex: 1;

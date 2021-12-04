@@ -9,6 +9,7 @@
     }
     h2 {
         margin-bottom: 10px;
+        width: 100%;
 
         @include responsive(tablet) {
             text-align: center;
