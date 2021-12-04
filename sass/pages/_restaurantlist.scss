@@ -21,7 +21,7 @@
         gap: 20px;
         @include flex(column);
 
-        @include responsive(desktop) {
+        @include responsive(tablet) {
             @include flex(row wrap);
         }
     }
