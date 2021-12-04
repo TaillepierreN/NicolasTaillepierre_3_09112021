@@ -290,6 +290,14 @@ main {
   text-transform: uppercase;
   font-size: 1.1rem;
 }
+.menu__entree h2::after {
+  content: "";
+  display: block;
+  background-color: #99e2d0;
+  width: 42px;
+  height: 2px;
+  margin: 2px 0 5px 0;
+}
 
 .research {
   width: 100%;

@@ -25,6 +25,8 @@
         font-weight: 300;
         text-transform:uppercase;
         font-size: $h3size;
+        @include after_bar;
+
         }
     }
 }
