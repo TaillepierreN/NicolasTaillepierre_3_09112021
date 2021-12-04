@@ -1,0 +1,8 @@
+.dish{
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    @include flex;
+    @include shadow (1px, 1px, 25px, -20px);
+}

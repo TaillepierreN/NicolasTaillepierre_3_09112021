@@ -170,6 +170,16 @@ a:visited {
   z-index: 2;
 }
 
+.dish {
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  flex-flow: row;
+  box-shadow: 1px 1px 25px -20px black;
+}
+
 header {
   display: flex;
   flex-flow: column;
@@ -262,13 +272,16 @@ main {
 }
 
 .menu {
+  display: flex;
+  flex-flow: column;
   top: 50%;
-  background-color: white;
+  background-color: #f7f7f7;
   width: 100%;
   border-radius: 35px 35px 0 0;
   transform: translateY(-50px);
   margin: 0 auto;
   padding: 20px;
+  gap: 10px;
 }
 .menu__header {
   display: flex;
@@ -285,18 +298,23 @@ main {
 .menu__header i {
   font-size: 1.7rem;
 }
-.menu__entree h2 {
+.menu__entree, .menu__maindish, .menu__dessert {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+.menu__entree h2, .menu__maindish h2, .menu__dessert h2 {
   font-weight: 300;
   text-transform: uppercase;
   font-size: 1.1rem;
 }
-.menu__entree h2::after {
+.menu__entree h2::after, .menu__maindish h2::after, .menu__dessert h2::after {
   content: "";
   display: block;
   background-color: #99e2d0;
   width: 42px;
   height: 2px;
-  margin: 2px 0 5px 0;
+  margin: 2px 0;
 }
 
 .research {
