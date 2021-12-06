@@ -2,7 +2,23 @@
     width: 100%;
     background-color: white;
     border-radius: 20px;
-    padding: 15px;
     @include flex;
     @include shadow (1px, 1px, 25px, -20px);
+    align-items: flex-end;
+    overflow: hidden;
+    &__name{
+        margin: 15px 10px;
+        flex: 1;
+        & p{
+            font-weight: 400;
+            font-size: 0.9rem;
+            padding-top: 4px;
+        }
+    }
+    &__price{
+        margin: 0 15px 15px 0;
+        & h3{
+            font-size: 0.9rem;
+        }
+    }
 }

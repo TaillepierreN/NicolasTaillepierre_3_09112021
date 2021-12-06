@@ -174,17 +174,48 @@ a:visited {
   width: 100%;
   background-color: white;
   border-radius: 20px;
-  padding: 15px;
   display: flex;
   flex-flow: row;
   box-shadow: 1px 1px 25px -20px black;
+  align-items: flex-end;
+  overflow: hidden;
+}
+.dish__name {
+  margin: 15px 10px;
+  flex: 1;
+}
+.dish__name p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  padding-top: 4px;
+}
+.dish__price {
+  margin: 0 15px 15px 0;
+}
+.dish__price h3 {
+  font-size: 0.9rem;
 }
 
 .checkmark {
-  width: 50px;
+  width: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #99e2d0;
+  height: 73px;
+  margin-right: -70px;
+}
+.checkmark i {
+  background-color: white;
+  color: #99e2d0;
+  width: 20px;
+  border-radius: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  line-height: 1px;
 }
 
 header {

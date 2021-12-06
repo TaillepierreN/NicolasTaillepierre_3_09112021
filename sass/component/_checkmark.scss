@@ -1,6 +1,22 @@
 .checkmark{
-    width: 50px;
+    width: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: $tertiaryC;
+    height: 73px;
+    margin-right: -70px;
+    i{
+        background-color: white;
+        color: $tertiaryC;
+        width: 20px;
+        border-radius: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.9rem;
+        line-height: 1px;
+
+    }
 }
