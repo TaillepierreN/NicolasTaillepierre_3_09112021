@@ -61,7 +61,7 @@ a:visited {
 .menu .btn {
   height: 60px;
   max-width: 300px;
-  margin: 25px auto 0 auto;
+  margin: 35px auto 50px auto;
   padding: 0 65px;
 }
 
@@ -190,16 +190,19 @@ a:visited {
   margin: 15px 10px;
   flex: 1;
 }
+.dish__name h3 {
+  font-size: 1.3rem;
+}
 .dish__name p {
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   padding-top: 4px;
 }
 .dish__price {
   margin: 0 15px 15px 0;
 }
 .dish__price h3 {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 .checkmark {
@@ -328,17 +331,24 @@ main {
   padding: 20px;
   gap: 10px;
 }
+@media screen and (min-width: 992px) {
+  .menu {
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
 .menu__header {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 25px;
+  width: 100%;
 }
 .menu__header h1 {
   font-family: "Shrikhand", cursive;
   font-weight: 300;
-  font-size: 2em;
+  font-size: 2.1em;
 }
 .menu__header i {
   font-size: 1.7rem;
@@ -348,18 +358,27 @@ main {
   flex-flow: column;
   gap: 10px;
 }
+@media screen and (min-width: 992px) {
+  .menu__entree, .menu__maindish, .menu__dessert {
+    flex: 1;
+  }
+}
 .menu__entree h2, .menu__maindish h2, .menu__dessert h2 {
   font-weight: 300;
   text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 .menu__entree h2::after, .menu__maindish h2::after, .menu__dessert h2::after {
   content: "";
   display: block;
   background-color: #99e2d0;
   width: 42px;
-  height: 2px;
+  height: 4px;
   margin: 2px 0;
+}
+.menu__btn {
+  width: 100%;
+  text-align: center;
 }
 
 .research {

@@ -7,18 +7,21 @@
     align-items: flex-end;
     overflow: hidden;
     &__name{
+        & h3{
+            font-size: 1.3rem;
+        }
         margin: 15px 10px;
         flex: 1;
         & p{
             font-weight: 400;
-            font-size: 0.9rem;
+            font-size: $h3size;
             padding-top: 4px;
         }
     }
     &__price{
         margin: 0 15px 15px 0;
         & h3{
-            font-size: 0.9rem;
+            font-size: $h3size;
         }
     }
 }
