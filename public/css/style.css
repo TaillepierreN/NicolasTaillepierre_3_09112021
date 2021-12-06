@@ -180,6 +180,13 @@ a:visited {
   box-shadow: 1px 1px 25px -20px black;
 }
 
+.checkmark {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header {
   display: flex;
   flex-flow: column;
