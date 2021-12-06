@@ -58,6 +58,12 @@ a:visited {
   margin-top: 25px;
   max-width: 500px;
 }
+.menu .btn {
+  height: 60px;
+  max-width: 300px;
+  margin: 25px auto 0 auto;
+  padding: 0 65px;
+}
 
 .instruction {
   height: 60px;
@@ -318,6 +324,7 @@ main {
   border-radius: 35px 35px 0 0;
   transform: translateY(-50px);
   margin: 0 auto;
+  margin-bottom: -50px;
   padding: 20px;
   gap: 10px;
 }
