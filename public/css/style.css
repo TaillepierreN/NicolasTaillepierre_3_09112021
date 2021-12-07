@@ -63,6 +63,7 @@ a:visited {
   max-width: 300px;
   margin: 35px auto 50px auto;
   padding: 0 65px;
+  background: linear-gradient(170deg, #ff79da 15%, #9356dc 100%);
 }
 
 .instruction {
@@ -115,12 +116,14 @@ a:visited {
   .restaucard {
     flex: 1;
     min-width: 300px;
+    max-width: 470px;
   }
 }
 @media screen and (min-width: 992px) {
   .restaucard {
-    min-width: 455px;
+    min-width: 344px;
     flex: 1;
+    justify-content: space-between;
   }
 }
 .restaucard a {
@@ -137,6 +140,7 @@ a:visited {
 .restaucard img {
   height: 70%;
   object-fit: cover;
+  object-position: 0 62%;
 }
 .restaucard__nameplate {
   display: flex;
@@ -150,6 +154,9 @@ a:visited {
   display: flex;
   flex-flow: column;
   gap: 3px;
+}
+.restaucard__nameplate__name p {
+  font-weight: 400;
 }
 
 .newtag {

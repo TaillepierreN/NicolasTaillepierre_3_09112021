@@ -2,10 +2,14 @@
     @include responsive(tablet){
         flex: 1;
         min-width: 300px;
+        max-width: 470px;
+
     }
     @include responsive(desktop) {
-        min-width: 455px;
+        min-width: 344px;
         flex: 1;
+        justify-content: space-between;
+
     }
 
     a {
@@ -22,6 +26,7 @@
     img {
         height: 70%;
         object-fit: cover;
+        object-position: 0 62%;
     }
 
     &__nameplate {
@@ -34,6 +39,9 @@
         &__name {
             @include flex(column);
             gap: 3px;
+            & p{
+                font-weight: 400;
+            }
         }
     }
 
