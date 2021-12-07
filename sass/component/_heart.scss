@@ -1,5 +1,28 @@
 .heart {
-    position: relative;
+    position: absolute;
     font-size: 1.5rem;
     z-index: 2;
+    bottom: 25px;
+    right: 25px;
+
+    &--full{
+        z-index: 3;
+        opacity: 1;
+        transform: scale(0);
+        color: rgba(255,121,218,1);
+        cursor: pointer;
+        transition: ease-in-out 0.2s;
+    }
+    &__checkbox{
+        z-index: 4;
+        width: 75px;
+        height: 75px;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        &:checked + .heart--full{
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
 }
