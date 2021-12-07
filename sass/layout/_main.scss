@@ -1,5 +1,7 @@
 main {
     @include flex(column);
+    background-color: darken(white, 3%);
+
 
     @include responsive(desktop) {
         @include flex(row wrap);

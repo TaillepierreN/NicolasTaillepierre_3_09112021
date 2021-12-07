@@ -310,6 +310,7 @@ footer li i {
 main {
   display: flex;
   flex-flow: column;
+  background-color: #f7f7f7;
 }
 @media screen and (min-width: 992px) {
   main {
@@ -443,6 +444,7 @@ form input {
   padding: 50px 20px;
   display: flex;
   flex-flow: column;
+  background-color: white;
   gap: 20px;
 }
 @media screen and (min-width: 768px) {
