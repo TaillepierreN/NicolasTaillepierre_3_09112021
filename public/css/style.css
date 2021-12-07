@@ -189,11 +189,11 @@ a:visited {
 }
 .heart--full {
   z-index: 3;
-  opacity: 1;
+  opacity: 0;
   transform: scale(0);
   color: #ff79da;
   cursor: pointer;
-  transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.5s;
 }
 .heart__checkbox {
   z-index: 4;
@@ -204,6 +204,31 @@ a:visited {
   opacity: 0;
 }
 .heart__checkbox:checked + .heart--full {
+  opacity: 1;
+  transform: scale(1);
+}
+.heart__menu, .heart__menu--full {
+  top: 25px;
+  bottom: auto;
+}
+.heart__menu--full, .heart__menu--full--full {
+  z-index: 3;
+  opacity: 0;
+  transform: scale(0);
+  color: #ff79da;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+.heart__menu__checkbox, .heart__menu--full__checkbox {
+  top: 25px;
+  z-index: 4;
+  width: 75px;
+  height: 75px;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+}
+.heart__menu__checkbox:checked + .heart__menu--full, .heart__menu--full__checkbox:checked + .heart__menu--full {
   opacity: 1;
   transform: scale(1);
 }

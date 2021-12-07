@@ -4,25 +4,42 @@
     z-index: 2;
     bottom: 25px;
     right: 25px;
+    @include popheart;
 
-    &--full{
-        z-index: 3;
-        opacity: 1;
-        transform: scale(0);
-        color: rgba(255,121,218,1);
-        cursor: pointer;
-        transition: ease-in-out 0.2s;
-    }
-    &__checkbox{
+    &__checkbox {
         z-index: 4;
         width: 75px;
         height: 75px;
         bottom: 0;
         right: 0;
         opacity: 0;
-        &:checked + .heart--full{
+
+        &:checked+.heart--full {
             opacity: 1;
             transform: scale(1);
+        }
+    }
+
+
+    &__menu,
+    &__menu--full {
+        top: 25px;
+        bottom: auto;
+        @include popheart;
+
+        &__checkbox {
+            top: 25px;
+            z-index: 4;
+            width: 75px;
+            height: 75px;
+            bottom: 0;
+            right: 0;
+            opacity: 0;
+
+            &:checked+.heart__menu--full {
+                opacity: 1;
+                transform: scale(1);
+            }
         }
     }
 }

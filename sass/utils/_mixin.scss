@@ -14,12 +14,23 @@
 }
 
 @mixin after_bar {
-    &::after{
+    &::after {
         content: "";
         display: block;
         background-color: $tertiaryC;
         width: 42px;
         height: 4px;
         margin: 2px 0;
+    }
+}
+
+@mixin popheart {
+    &--full {
+        z-index: 3;
+        opacity: 0;
+        transform: scale(0);
+        color: rgba(255, 121, 218, 1);
+        cursor: pointer;
+        transition: ease-in-out 0.5s;
     }
 }
