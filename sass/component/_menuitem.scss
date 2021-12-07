@@ -6,7 +6,12 @@
     @include shadow (1px, 1px, 25px, -20px);
     align-items: flex-end;
     overflow: hidden;
+    position: relative;
+    @include responsive(desktop){
+        align-items: flex-start;
+    }
     &__name{
+        min-width: 50%;
         & h3{
             font-size: 1.3rem;
         }
@@ -17,11 +22,29 @@
             font-size: $h3size;
             padding-top: 4px;
         }
+        @include responsive(desktop){
+            gap: 18px;
+            display: flex;
+            flex-direction: column;
+        }
     }
     &__price{
         margin: 0 15px 15px 0;
         & h3{
             font-size: $h3size;
+        }
+        @include responsive(desktop){
+            align-self: flex-end;
+        }
+    }
+    &:hover > .checkmark,
+    &:hover > .checkmark__check,
+    .checkmark__check:checked+.checkmark{
+        margin-right: 0px;
+        i{
+            transform: rotate(0);
+            transition-delay: 0.4s;
+
         }
     }
 }
