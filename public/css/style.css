@@ -40,6 +40,122 @@ a:visited {
   max-width: 1440px;
 }
 
+.loader {
+  width: 100%;
+  height: 110%;
+  display: flex;
+  flex-flow: row;
+  background-color: #303030;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  animation: 0.3s ease-out 3s disappear forwards;
+}
+.loader i {
+  height: 64px;
+  width: 64px;
+  font-size: 4rem;
+  animation: 3s ease infinite loader;
+}
+.loader i:nth-child(0n+1) {
+  animation-name: loader;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.2s;
+}
+@keyframes loader {
+  0% {
+    color: black;
+    transform: translateY(0);
+  }
+  25% {
+    color: #9356dc;
+    transform: translateY(50px) rotate(90deg);
+  }
+  50% {
+    color: #ff79da;
+    transform: translateY(100px) rotate(180deg);
+  }
+  75% {
+    color: #99e2d0;
+    transform: translateY(50px) rotate(270deg);
+  }
+  100% {
+    color: black;
+    transform: translateY(0) rotate(360deg);
+  }
+}
+.loader i:nth-child(0n+2) {
+  animation-name: loader;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.4s;
+}
+@keyframes loader {
+  0% {
+    color: black;
+    transform: translateY(0);
+  }
+  25% {
+    color: #9356dc;
+    transform: translateY(50px) rotate(90deg);
+  }
+  50% {
+    color: #ff79da;
+    transform: translateY(100px) rotate(180deg);
+  }
+  75% {
+    color: #99e2d0;
+    transform: translateY(50px) rotate(270deg);
+  }
+  100% {
+    color: black;
+    transform: translateY(0) rotate(360deg);
+  }
+}
+.loader i:nth-child(0n+3) {
+  animation-name: loader;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.6s;
+}
+@keyframes loader {
+  0% {
+    color: black;
+    transform: translateY(0);
+  }
+  25% {
+    color: #9356dc;
+    transform: translateY(50px) rotate(90deg);
+  }
+  50% {
+    color: #ff79da;
+    transform: translateY(100px) rotate(180deg);
+  }
+  75% {
+    color: #99e2d0;
+    transform: translateY(50px) rotate(270deg);
+  }
+  100% {
+    color: black;
+    transform: translateY(0) rotate(360deg);
+  }
+}
+@keyframes disappear {
+  from {
+    visibility: visible;
+  }
+  to {
+    visibility: hidden;
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
 .btn {
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;

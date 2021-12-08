@@ -1,0 +1,37 @@
+.loader {
+    width: 100%;
+    height: 110%;
+    @include flex;
+    background-color: lighten(black, 19%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    animation:0.3s  ease-out 3s disappear forwards;
+    & i {
+        height: 64px;
+        width: 64px;
+        font-size: 4rem;
+        animation: 3s ease infinite loader;
+        @include loader;
+    }
+
+    @keyframes disappear {
+        from {
+
+            visibility: visible;
+        }
+
+        to {
+            visibility: hidden;
+            transform: scale(0);
+            opacity: 0;
+        }
+    }
+
+
+}
