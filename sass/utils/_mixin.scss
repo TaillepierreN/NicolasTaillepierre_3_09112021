@@ -45,14 +45,14 @@
         & .dish:nth-child(0n+#{$i})
         {
             animation-name: slidein;
-            animation-duration: 1.5s;
+            animation-duration: 0.5s;
             animation-timing-function: ease-out;
             animation-delay: $i*0.30s;
             animation-fill-mode: forwards;
             opacity: 0;
             @keyframes slidein {
                 from{
-                    transform: translateY(200px);
+                    transform: translateY(10px);
                     opacity: 0;
                 }
                 to{
