@@ -27,7 +27,20 @@
         padding: 0 65px;
         background: linear-gradient(170deg,
         rgba(255, 121, 218, 1) 15%,
-        rgba(147, 86, 220, 1) 100%)
+        rgba(147, 86, 220, 1) 100%);
+        &:hover{
+         @include shadow(0,9px,15px,0px);
+         background: linear-gradient(170deg,
+         lighten(rgba(255, 121, 218, 1),2%) 15%,
+         lighten(rgba(147, 86, 220, 1),2%) 100%);
+        }
+    }
+    &:hover{
+        background: linear-gradient(170deg,
+        lighten(rgba(255, 121, 218, 1),2%) 0%,
+        lighten(rgba(147, 86, 220, 1),2%) 82%);
+        @include shadow(0,9px,15px,0px);
+
     }
 
 }

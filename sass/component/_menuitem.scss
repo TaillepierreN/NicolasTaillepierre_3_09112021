@@ -13,12 +13,19 @@
     }
     &__name{
         min-width: 50%;
-        & h3{
-            font-size: 1.3rem;
-        }
+        // min-width: 100px;
         margin: 15px 10px;
         flex: 1;
+        & h3{
+            font-size: 1.3rem;
+            // text-overflow: ellipsis;
+            // overflow: hidden;
+            // white-space: nowrap;
+        }
         & p{
+            // text-overflow: ellipsis;
+            // overflow: hidden;
+            // white-space: nowrap;
             font-weight: 400;
             font-size: $h3size;
             padding-top: 4px;

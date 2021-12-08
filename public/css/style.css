@@ -66,6 +66,14 @@ a:visited {
   padding: 0 65px;
   background: linear-gradient(170deg, #ff79da 15%, #9356dc 100%);
 }
+.menu .btn:hover {
+  box-shadow: 0 9px 15px 0px black;
+  background: linear-gradient(170deg, #ff83dd 15%, #985ede 100%);
+}
+.btn:hover {
+  background: linear-gradient(170deg, #ff83dd 0%, #985ede 82%);
+  box-shadow: 0 9px 15px 0px black;
+}
 
 .instruction {
   height: 60px;
