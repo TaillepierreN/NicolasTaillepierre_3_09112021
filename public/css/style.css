@@ -453,6 +453,168 @@ main {
   padding: 20px;
   gap: 10px;
 }
+.menu section:nth-child(0n+1), .menu .dish:nth-child(0n+1) {
+  animation-name: slidein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes slidein {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.menu section:nth-child(0n+2), .menu .dish:nth-child(0n+2) {
+  animation-name: slidein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.6s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes slidein {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.menu section:nth-child(0n+3), .menu .dish:nth-child(0n+3) {
+  animation-name: slidein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.9s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes slidein {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.menu section:nth-child(0n+4), .menu .dish:nth-child(0n+4) {
+  animation-name: slidein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes slidein {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.menu section:nth-child(0n+5), .menu .dish:nth-child(0n+5) {
+  animation-name: slidein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes slidein {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.menu section:nth-child(0n+6), .menu .dish:nth-child(0n+6) {
+  animation-name: slidein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 1.8s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes slidein {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.menu section:nth-child(0n+7), .menu .dish:nth-child(0n+7) {
+  animation-name: slidein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 2.1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes slidein {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.menu section:nth-child(0n+8), .menu .dish:nth-child(0n+8) {
+  animation-name: slidein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 2.4s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes slidein {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.menu section:nth-child(0n+9), .menu .dish:nth-child(0n+9) {
+  animation-name: slidein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 2.7s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes slidein {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 @media screen and (min-width: 992px) {
   .menu {
     display: flex;

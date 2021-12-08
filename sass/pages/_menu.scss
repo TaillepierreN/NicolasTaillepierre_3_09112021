@@ -11,6 +11,7 @@
     // margin-top: 45%;
     padding: 20px;
     gap: 10px;
+    @include dish_animation;
     @include responsive(desktop){
         @include flex(row wrap);
     }
