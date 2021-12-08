@@ -11,6 +11,7 @@
     border-radius: 35px;
     min-width: 100px;
     padding: 0 35px;
+    cursor: pointer;
     @include shadow(0,9px,25px,-15px);
 
     .explore & {

@@ -29,7 +29,11 @@
         z-index: 3;
         opacity: 0;
         transform: scale(0);
-        color: rgba(255, 121, 218, 1);
+        // color: rgba(255, 121, 218, 1)
+        background: linear-gradient($primaryC 30%, $secondaryC);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
         cursor: pointer;
         transition: ease-in-out 0.5s;
     }
