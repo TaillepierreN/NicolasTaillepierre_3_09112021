@@ -25,4 +25,9 @@
     @include responsive(desktop) {
         width: 50%;
     }
+    & .btn {
+        height: 60px;
+        margin-top: 25px;
+        max-width: 500px;
+    }
 }

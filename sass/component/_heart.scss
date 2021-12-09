@@ -21,25 +21,4 @@
     }
 
 
-    &__menu,
-    &__menu--full {
-        top: 25px;
-        bottom: auto;
-        @include popheart;
-
-        &__checkbox {
-            top: 25px;
-            z-index: 4;
-            width: 75px;
-            height: 75px;
-            bottom: 0;
-            right: 0;
-            opacity: 0;
-
-            &:checked+.heart__menu--full {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
-    }
 }

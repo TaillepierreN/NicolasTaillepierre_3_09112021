@@ -14,27 +14,6 @@
     cursor: pointer;
     @include shadow(0,9px,25px,-15px);
 
-    .explore & {
-        height: 60px;
-        margin-top: 25px;
-        max-width: 500px;
-    }
-
-    .menu &{
-        height: 60px;
-        max-width: 300px;
-        margin: 35px auto 50px auto;
-        padding: 0 65px;
-        background: linear-gradient(170deg,
-        rgba(255, 121, 218, 1) 15%,
-        rgba(147, 86, 220, 1) 100%);
-        &:hover{
-         @include shadow(0,9px,15px,0px);
-         background: linear-gradient(170deg,
-         lighten(rgba(255, 121, 218, 1),2%) 15%,
-         lighten(rgba(147, 86, 220, 1),2%) 100%);
-        }
-    }
     &:hover{
         background: linear-gradient(170deg,
         lighten(rgba(255, 121, 218, 1),2%) 0%,
