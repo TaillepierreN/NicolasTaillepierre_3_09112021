@@ -24,6 +24,7 @@
 
     @include responsive(desktop) {
         width: 50%;
+        background-color: white;
     }
     & .btn {
         height: 60px;

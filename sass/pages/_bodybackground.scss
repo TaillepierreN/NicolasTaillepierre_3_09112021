@@ -1,8 +1,9 @@
 .bodybackground{
-    overflow: hidden;
-    object-fit:cover;
-    // position: absolute;
-    img{
+    height: 500px;
     width: 100%;
-    }
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }

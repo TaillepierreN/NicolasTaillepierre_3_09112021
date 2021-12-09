@@ -1,12 +1,11 @@
 .restaucard {
     @include responsive(tablet){
         flex: 1;
-        min-width: 300px;
-        max-width: 470px;
+        min-width: 45%;
 
     }
     @include responsive(desktop) {
-        min-width: 344px;
+        min-width: 45%;
         flex: 1;
         justify-content: space-between;
 

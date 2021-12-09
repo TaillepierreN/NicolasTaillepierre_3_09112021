@@ -170,17 +170,6 @@ a:visited {
   cursor: pointer;
   box-shadow: 0 9px 25px -15px black;
 }
-.menu .btn {
-  height: 60px;
-  max-width: 300px;
-  margin: 35px auto 50px auto;
-  padding: 0 65px;
-  background: linear-gradient(170deg, #ff79da 15%, #9356dc 100%);
-}
-.menu .btn:hover {
-  box-shadow: 0 9px 15px 0px black;
-  background: linear-gradient(170deg, #ff83dd 15%, #985ede 100%);
-}
 .btn:hover {
   background: linear-gradient(170deg, #ff83dd 0%, #985ede 82%);
   box-shadow: 0 9px 15px 0px black;
@@ -238,13 +227,12 @@ a:visited {
 @media screen and (min-width: 768px) {
   .restaucard {
     flex: 1;
-    min-width: 300px;
-    max-width: 470px;
+    min-width: 45%;
   }
 }
 @media screen and (min-width: 992px) {
   .restaucard {
-    min-width: 344px;
+    min-width: 45%;
     flex: 1;
     justify-content: space-between;
   }
@@ -327,34 +315,6 @@ a:visited {
   opacity: 0;
 }
 .heart__checkbox:checked + .heart--full {
-  opacity: 1;
-  transform: scale(1);
-}
-.heart__menu, .heart__menu--full {
-  top: 10px;
-  bottom: auto;
-}
-.heart__menu--full, .heart__menu--full--full {
-  z-index: 3;
-  opacity: 0;
-  transform: scale(0);
-  background: linear-gradient(#9356dc 30%, #ff79da);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  cursor: pointer;
-  transition: ease-in-out 0.5s;
-}
-.heart__menu__checkbox, .heart__menu--full__checkbox {
-  top: 25px;
-  z-index: 4;
-  width: 75px;
-  height: 75px;
-  bottom: 0;
-  right: 0;
-  opacity: 0;
-}
-.heart__menu__checkbox:checked + .heart__menu--full, .heart__menu--full__checkbox:checked + .heart__menu--full {
   opacity: 1;
   transform: scale(1);
 }
@@ -501,6 +461,10 @@ header img {
   right: 55px;
 }
 
+#alafrancaise {
+  background-image: url("../../public/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+}
+
 footer {
   height: 200px;
   background-color: #303030;
@@ -570,7 +534,7 @@ main {
   transform: translateY(-50px);
   margin-bottom: -50px;
   padding: 20px;
-  gap: 10px;
+  gap: 40px;
 }
 .menu section:nth-child(0n+1), .menu .dish:nth-child(0n+1) {
   animation-name: slidein;
@@ -876,6 +840,7 @@ form input {
 @media screen and (min-width: 992px) {
   .explore {
     width: 50%;
+    background-color: white;
   }
 }
 .explore .btn {
@@ -911,6 +876,8 @@ form input {
 @media screen and (min-width: 992px) {
   .how {
     width: 50%;
+    display: flex;
+    flex-flow: column;
   }
 }
 
@@ -948,11 +915,12 @@ form input {
 }
 
 .bodybackground {
-  overflow: hidden;
-  object-fit: cover;
-}
-.bodybackground img {
+  height: 500px;
   width: 100%;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*# sourceMappingURL=style.css.map */
