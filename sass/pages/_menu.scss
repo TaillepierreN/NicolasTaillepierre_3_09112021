@@ -15,6 +15,7 @@
 
     @include responsive(desktop) {
         @include flex(row wrap);
+        justify-content: space-between;
     }
 
     &__header {
@@ -43,7 +44,7 @@
 
         @include responsive(desktop) {
             flex: 1;
-            max-width: 30%;
+            max-width: 30.53%;
         }
 
         h2 {

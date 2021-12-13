@@ -713,6 +713,7 @@ main {
   .menu {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
   }
 }
 .menu__header {
@@ -739,7 +740,7 @@ main {
 @media screen and (min-width: 992px) {
   .menu__entree, .menu__maindish, .menu__dessert {
     flex: 1;
-    max-width: 30%;
+    max-width: 30.53%;
   }
 }
 .menu__entree h2, .menu__maindish h2, .menu__dessert h2 {
