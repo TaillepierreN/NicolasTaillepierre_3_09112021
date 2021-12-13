@@ -171,7 +171,7 @@ a:visited {
   box-shadow: 0 9px 25px -15px black;
 }
 .btn:hover {
-  background: linear-gradient(170deg, #ff83dd 0%, #985ede 82%);
+  background: linear-gradient(170deg, #ff8de0 0%, #9e67e0 82%);
   box-shadow: 0 9px 15px 0px black;
 }
 
@@ -769,7 +769,7 @@ main {
 }
 .menu .btn:hover {
   box-shadow: 0 9px 15px 0px black;
-  background: linear-gradient(170deg, #ff83dd 15%, #985ede 100%);
+  background: linear-gradient(170deg, #ff8de0 15%, #9e67e0 100%);
 }
 .menu .heart__menu, .menu .heart__menu--full {
   top: 10px;

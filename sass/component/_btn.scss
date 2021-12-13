@@ -16,8 +16,8 @@
 
     &:hover{
         background: linear-gradient(170deg,
-        lighten(rgba(255, 121, 218, 1),2%) 0%,
-        lighten(rgba(147, 86, 220, 1),2%) 82%);
+        lighten(rgba(255, 121, 218, 1),4%) 0%,
+        lighten(rgba(147, 86, 220, 1),4%) 82%);
         @include shadow(0,9px,15px,0px);
 
     }
