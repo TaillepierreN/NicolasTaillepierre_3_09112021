@@ -8,7 +8,7 @@
     height: 85px;
     margin-right: -70px;
     cursor: pointer;
-    transition: margin-right ease-out 1s;
+    transition: margin-right ease-out 0.5s;
     position: relative;
     @include responsive(desktop){
         height: 130px;
@@ -37,7 +37,7 @@
         font-size: 0.9rem;
         line-height: 1px;
         transform: rotate(-225deg);
-        transition: transform ease-in-out 0.7s;
+        transition: transform ease-in-out 0.2s;
 
     }
 }
