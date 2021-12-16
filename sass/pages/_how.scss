@@ -20,6 +20,7 @@
     @include responsive(desktop) {
         width: 50%;
         @include flex(column);
+        align-items: center;
 
     }
 }

@@ -12,6 +12,10 @@
     @include responsive(tablet) {
         flex: 1;
     }
+    @include responsive(desktop) {
+        width: 60%;
+        max-width: 400px;
+    }
 
     &__num {
         background-color: $primaryC;

@@ -10,11 +10,9 @@
     cursor: pointer;
     transition: margin-right ease-out 0.5s;
     position: relative;
-    @include responsive(desktop){
-        height: 130px;
-    }
+
     &__check{
-    height: 130px;
+    height: 85px;
     width: 67px;
     position: absolute;
     opacity: 0;

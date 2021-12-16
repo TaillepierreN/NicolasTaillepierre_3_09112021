@@ -14,7 +14,8 @@
         right: 0;
         opacity: 0;
 
-        &:checked+.heart--full {
+        &:checked+.heart--full,
+        &:hover+.heart--full {
             opacity: 1;
             transform: scale(1);
         }

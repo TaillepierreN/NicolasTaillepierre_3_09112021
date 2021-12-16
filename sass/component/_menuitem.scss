@@ -15,13 +15,15 @@
         min-width: 50px;
         margin: 15px 10px;
         flex: 1;
-        & h3{
+        & .dname{
             font-size: 1.3rem;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            font-weight: 700;
+            font-family: $roboto;
         }
-        & p{
+        & .ddesc{
             font-weight: 400;
             font-size: $h3size;
             padding-top: 4px;
@@ -30,7 +32,6 @@
             text-overflow: ellipsis;
         }
         @include responsive(desktop){
-            gap: 10px;
             display: flex;
             flex-direction: column;
         }
