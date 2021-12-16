@@ -19,6 +19,10 @@ a {
     list-style: none;
 }
 
+a:link{
+    color: inherit;
+}
+
 a:visited h1 {
     font-size: $h1size;
 }
