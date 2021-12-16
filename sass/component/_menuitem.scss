@@ -25,11 +25,13 @@
         }
         & .ddesc{
             font-weight: 400;
-            font-size: $h3size;
+            font-size: 1rem;
             padding-top: 4px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            font-family: $roboto;
+
         }
         @include responsive(desktop){
             display: flex;
