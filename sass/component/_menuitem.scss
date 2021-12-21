@@ -15,6 +15,9 @@
         min-width: 50px;
         margin: 15px 10px;
         flex: 1;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
         & .dname{
             font-size: 1.3rem;
             white-space: nowrap;
